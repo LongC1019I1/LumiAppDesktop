@@ -7,7 +7,7 @@ export default {
   children: [{
     path: 'login',
     name: 'account-login',
-    component: require('@/components/page/account/Login').default,
+    component: require('@/components/page/account/Login').default
     // beforeEnter: beforeEnterLogin
   }]
 }
