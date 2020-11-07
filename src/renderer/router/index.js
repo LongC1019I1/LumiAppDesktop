@@ -8,7 +8,7 @@ export default new Router({
   routes: [
     {
       path: '/',
-      redirect: { name: 'account-login' }
+      redirect: { name: 'account' }
     }, accountRoute,
     {
       path: '*',

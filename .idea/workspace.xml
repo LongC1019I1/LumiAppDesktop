@@ -20,36 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f72cde6a-c4d4-4fa7-8f34-441b830661a9" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/static/img/brand/background.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/brand/logo-lumi-short-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/brand/logo-lumi-white.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/brand/logo-lumi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/configHC/HC.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/flag-GB.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/flag-VN.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/homeDefault.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/icons/closeCurtain.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/icons/common/anh.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/icons/common/broken-image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/icons/common/center.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/icons/common/github.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/icons/common/google.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/icons/common/home.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/icons/common/home1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/icons/common/iconMap.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/icons/common/noimage.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/icons/openCurtain.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/listHome/icon/add.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/listHome/icon/addHome.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/listHome/icon/bullet_gray.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/listHome/icon/bullet_green.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/listHome/nha-default.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/musicBox.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/img/userDefault.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.eslintrc.js" beforeDir="false" afterPath="$PROJECT_DIR$/.eslintrc.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/components/LandingPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/LandingPage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/renderer/components/layout/Account.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/layout/Account.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/renderer/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/renderer/router/account.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/router/account.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/renderer/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/router/index.js" afterDir="false" />
     </list>
@@ -103,6 +77,7 @@
       <workItem from="1604410404054" duration="2112000" />
       <workItem from="1604585532884" duration="1894000" />
       <workItem from="1604700854244" duration="1111000" />
+      <workItem from="1604718030717" duration="1462000" />
     </task>
     <servers />
   </component>
@@ -119,11 +94,20 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="579" y="187" width="424" height="506" key="FileChooserDialogImpl" timestamp="1604718229325">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="579" y="187" width="424" height="506" key="FileChooserDialogImpl/0.0.1600.860/1600.0.1600.900@0.0.1600.860" timestamp="1604718229325" />
     <state x="181" y="269" width="587" height="502" key="find.popup" timestamp="1604700922976">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="181" y="269" width="587" height="502" key="find.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1604700922976" />
+    <state x="464" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1604718257081">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="464" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1600.860/1600.0.1600.900@0.0.1600.860" timestamp="1604718257081" />
   </component>
 </project>

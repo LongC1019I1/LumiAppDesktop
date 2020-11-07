@@ -1,7 +1,7 @@
-// import store from '../store'
+import store from '../store'
 
 export default {
-  path: '/account',
+  path: 'account',
   name: 'account',
   component: require('@/components/layout/Account').default,
   children: [{

@@ -9,9 +9,12 @@ if (!process.env.IS_WEB) Vue.use(require('vue-electron'))
 Vue.http = Vue.prototype.$http = axios
 Vue.config.productionTip = false
 
+window.$router = router
+
 /* eslint-disable no-new */
 new Vue({
   components: { App },
+  mode: 'history',
   router,
   store,
   template: '<App/>'
