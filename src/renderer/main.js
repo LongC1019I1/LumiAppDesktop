@@ -1,6 +1,6 @@
 import Vue from 'vue'
 import axios from 'axios'
-
+import i18n from "./lang/i18n";
 import App from './App'
 import router from './router'
 import store from './store'
@@ -12,10 +12,12 @@ Vue.config.productionTip = false
 window.$router = router
 
 /* eslint-disable no-new */
-new Vue({
+window.Vue = new Vue({
   components: { App },
   mode: 'history',
   router,
   store,
   template: '<App/>'
 }).$mount('#app')
+
+export default window.Vue
