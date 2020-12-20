@@ -15,6 +15,7 @@ window.$router = router
 window.Vue = new Vue({
   components: { App },
   mode: 'history',
+  i18n,
   router,
   store,
   template: '<App/>'
