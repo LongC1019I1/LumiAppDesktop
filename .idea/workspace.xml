@@ -2,20 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="90444756-125a-4252-bb8c-42c085597ca2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/renderer/components/page/account/function.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/renderer/lang/EN.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/renderer/lang/VN.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/renderer/lang/i18n.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.electron-vue/webpack.renderer.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/.electron-vue/webpack.renderer.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/Project.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/my-project.iml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/components/base/element/BaseButton.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/components/base/element/BaseCheckbox.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/components/base/element/BaseInput.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/connect/config.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/plugins/argon-kit.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/plugins/globalComponents.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/components/page/account/Login.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/page/account/Login.vue" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/renderer/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -36,7 +29,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/renderer/lang" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/renderer/connect" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -45,6 +38,9 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/renderer/connect" />
+      <recent name="$PROJECT_DIR$/src/renderer/plugins" />
+      <recent name="$PROJECT_DIR$/src/renderer/components/base/element" />
       <recent name="$PROJECT_DIR$/src/renderer/lang" />
       <recent name="$PROJECT_DIR$/src/renderer/components/page/account" />
     </key>
