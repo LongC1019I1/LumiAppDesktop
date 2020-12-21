@@ -2,14 +2,13 @@
   <div id="wrapper">
     <h1>sss123123123</h1>
   </div>
+
 </template>
 
 <script>
-  import SystemInformation from './LandingPage/SystemInformation'
 
   export default {
     name: 'landing-page',
-    components: { SystemInformation },
     methods: {
       open (link) {
         this.$electron.shell.openExternal(link)

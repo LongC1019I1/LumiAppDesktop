@@ -1,15 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90444756-125a-4252-bb8c-42c085597ca2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/renderer/components/base/element/BaseButton.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/renderer/components/base/element/BaseCheckbox.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/renderer/components/base/element/BaseInput.vue" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/renderer/connect/config.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/renderer/plugins/argon-kit.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/renderer/plugins/globalComponents.js" afterDir="false" />
+    <list default="true" id="8a8d0689-0c7f-4488-a993-7b01c83a1f2d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/renderer/components/base/element/stringUtils.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.electron-vue/webpack.renderer.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/.electron-vue/webpack.renderer.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/LumiAppDesktop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LumiAppDesktop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/renderer/components/LandingPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/LandingPage.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/renderer/components/base/element/BaseCheckbox.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/base/element/BaseCheckbox.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/renderer/components/base/element/BaseInput.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/base/element/BaseInput.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/renderer/plugins/argon-kit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/plugins/argon-kit.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,7 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectId" id="1lXI8Iw8MJuyUhjD4WdNXIa1VbN" />
+  <component name="ProjectId" id="1lwkxKge6AxWAI4JSn2SFVp0Zy5" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -34,42 +38,28 @@
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/renderer/connect" />
-      <recent name="$PROJECT_DIR$/src/renderer/plugins" />
-      <recent name="$PROJECT_DIR$/src/renderer/components/base/element" />
-      <recent name="$PROJECT_DIR$/src/renderer/lang" />
-      <recent name="$PROJECT_DIR$/src/renderer/components/page/account" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="90444756-125a-4252-bb8c-42c085597ca2" name="Default Changelist" comment="" />
-      <created>1607736847669</created>
+      <changelist id="8a8d0689-0c7f-4488-a993-7b01c83a1f2d" name="Default Changelist" comment="" />
+      <created>1608515786435</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1607736847669</updated>
-      <workItem from="1607736852173" duration="44000" />
-      <workItem from="1607986468327" duration="928000" />
+      <updated>1608515786435</updated>
+      <workItem from="1608515788511" duration="418000" />
+      <workItem from="1608591750507" duration="134000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
-  </component>
-  <component name="Vcs.Log.Tabs.Properties">
-    <option name="TAB_STATES">
-      <map>
-        <entry key="MAIN">
-          <value>
-            <State />
-          </value>
-        </entry>
-      </map>
-    </option>
   </component>
 </project>

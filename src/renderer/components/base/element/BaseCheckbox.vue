@@ -66,7 +66,8 @@ export default {
   },
   methods: {
     onEnter(e) {
-      this.$emit("onEnter", e);
+      // eslint-disable-next-line vue/custom-event-name-casing
+      // this.$emit("onEnter", e);
     }
   }
 };
