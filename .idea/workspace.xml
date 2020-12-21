@@ -2,18 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a8d0689-0c7f-4488-a993-7b01c83a1f2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/renderer/components/base/element/stringUtils.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.electron-vue/webpack.renderer.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/.electron-vue/webpack.renderer.config.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/LumiAppDesktop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LumiAppDesktop.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/components/base/element/Card.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/components/LandingPage.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/LandingPage.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/components/base/element/BaseCheckbox.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/base/element/BaseCheckbox.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/renderer/components/LandingPage.vue" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/renderer/components/base/element/BaseInput.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/base/element/BaseInput.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/plugins/argon-kit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/plugins/argon-kit.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/renderer/components/layout/Account.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/layout/Account.vue" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/renderer/plugins/globalComponents.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/plugins/globalComponents.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/renderer/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/router/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,7 +29,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/renderer/connect" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/renderer/components/base/element" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -43,6 +39,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/renderer/components/base/element" />
       <recent name="$PROJECT_DIR$/src/renderer/connect" />
     </key>
   </component>
@@ -55,11 +52,22 @@
       <option name="presentableId" value="Default" />
       <updated>1608515786435</updated>
       <workItem from="1608515788511" duration="418000" />
-      <workItem from="1608591750507" duration="134000" />
+      <workItem from="1608591750507" duration="986000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

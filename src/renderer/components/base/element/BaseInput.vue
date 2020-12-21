@@ -157,10 +157,10 @@ export default {
       this.$emit("blur", value);
     },
     rightIconClick(value) {
-      // this.$emit("rightIconClick", value);
+      this.$emit("right-icon-click", value);
     },
     onEnter(e){
-      // this.$emit("onEnter", e);
+      this.$emit("on-enter", e);
     }
   }
 };
