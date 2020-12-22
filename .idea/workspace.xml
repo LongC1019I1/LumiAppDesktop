@@ -2,14 +2,222 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8a8d0689-0c7f-4488-a993-7b01c83a1f2d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/renderer/components/base/element/Card.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/icomoon/Read Me.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/icomoon/demo-files/demo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/icomoon/demo-files/demo.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/icomoon/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/icomoon/fonts/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/icomoon/fonts/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/icomoon/fonts/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/icomoon/fonts/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/icomoon/selection.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/icomoon/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/icomoon2/Read Me.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/icomoon2/demo.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/icomoon2/fonts/icomoon.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/icomoon2/fonts/icomoon.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/icomoon2/fonts/icomoon.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/icomoon2/fonts/icomoon.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/icomoon2/selection.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/icomoon2/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/argon.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/_breadcrumb.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/_button-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/_close.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/_code.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/_custom-forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/_images.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/_jumbotron.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/_media.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/_modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/_popover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/_print.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/_reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/_root.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/_tables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/_tooltip.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/_transitions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/_type.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/mixins/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/mixins/_background-variant.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/mixins/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/mixins/_border-radius.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/mixins/_box-shadow.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/mixins/_breakpoints.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/mixins/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/mixins/_caret.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/mixins/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/mixins/_float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/mixins/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/mixins/_gradients.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/mixins/_grid-framework.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/mixins/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/mixins/_hover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/mixins/_image.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/mixins/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/mixins/_lists.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/mixins/_nav-divider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/mixins/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/mixins/_reset-text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/mixins/_resize.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/mixins/_screen-reader.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/mixins/_size.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/mixins/_table-row.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/mixins/_text-emphasis.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/mixins/_text-hide.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/mixins/_text-truncate.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/mixins/_transition.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/mixins/_visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/utilities/_align.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/utilities/_background.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/utilities/_borders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/utilities/_clearfix.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/utilities/_display.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/utilities/_embed.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/utilities/_flex.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/utilities/_float.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/utilities/_position.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/utilities/_screenreaders.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/utilities/_shadows.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/utilities/_sizing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/utilities/_spacing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/utilities/_text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/bootstrap/utilities/_visibility.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/custom/_accordion.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/custom/_alerts.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/custom/_avatars.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/custom/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/custom/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/custom/_card.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/custom/_carousel.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/custom/_close.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/custom/_custom-forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/custom/_dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/custom/_footer.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/custom/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/custom/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/custom/_global.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/custom/_grid.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/custom/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/custom/_input-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/custom/_list-group.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/custom/_mixins.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/custom/_modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/custom/_nav.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/custom/_navbar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/custom/_pagination.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/custom/_popover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/custom/_progress.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/custom/_reboot.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/custom/_section.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/custom/_type.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/custom/_utilities.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/custom/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/custom/mixins/_alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/custom/mixins/_background-variant.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/custom/mixins/_badge.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/custom/mixins/_buttons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/custom/mixins/_forms.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/custom/mixins/_icon.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/custom/mixins/_modals.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/custom/mixins/_popover.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/custom/utilities/_backgrounds.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/custom/utilities/_floating.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/custom/utilities/_helper.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/custom/utilities/_shadows.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/custom/utilities/_sizing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/custom/utilities/_spacing.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/custom/utilities/_text.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/custom/utilities/_transform.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/custom/vendor/_flatpickr.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/custom/vendor/_headroom.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/custom/vendor/_nouislider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/layout.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/loading.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/mycustom.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/night-theme/alert.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/night-theme/custom-element.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/night-theme/dropdown.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/night-theme/formInput.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/night-theme/header-sidebar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/night-theme/homes-page.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/night-theme/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/night-theme/modal.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/night-theme/night-theme-white-dragon.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/night-theme/pageControll.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/night-theme/pageGroup.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/night-theme/pageHomeInfo.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/night-theme/pageRoomfloor.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/night-theme/pageRule.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/night-theme/pageScene.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/night-theme/pageSchedule.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/night-theme/select.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/scss/night-theme/vue-slider.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/utm-avo/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/utm-avo/utm-avo.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/utm-avo/utm-avobold.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/vendor/MaterialDesign/.github/ISSUE_TEMPLATE.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/vendor/MaterialDesign/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/vendor/MaterialDesign/css/materialdesignicons.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/vendor/MaterialDesign/css/materialdesignicons.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/vendor/MaterialDesign/css/materialdesignicons.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/vendor/MaterialDesign/css/materialdesignicons.min.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/vendor/MaterialDesign/fonts/materialdesignicons-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/vendor/MaterialDesign/fonts/materialdesignicons-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/vendor/MaterialDesign/fonts/materialdesignicons-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/vendor/MaterialDesign/fonts/materialdesignicons-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/vendor/MaterialDesign/license.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/vendor/MaterialDesign/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/vendor/MaterialDesign/preview.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/vendor/MaterialDesign/scss/_animated.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/vendor/MaterialDesign/scss/_core.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/vendor/MaterialDesign/scss/_extras.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/vendor/MaterialDesign/scss/_functions.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/vendor/MaterialDesign/scss/_icons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/vendor/MaterialDesign/scss/_path.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/vendor/MaterialDesign/scss/_variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/vendor/MaterialDesign/scss/materialdesignicons.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/vendor/font-awesome/css/font-awesome.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/vendor/font-awesome/css/font-awesome.min.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/vendor/font-awesome/fonts/FontAwesome.otf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/vendor/font-awesome/fonts/fontawesome-webfont.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/vendor/font-awesome/fonts/fontawesome-webfont.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/vendor/font-awesome/fonts/fontawesome-webfont.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/vendor/font-awesome/fonts/fontawesome-webfont.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/vendor/font-awesome/fonts/fontawesome-webfont.woff2" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/vendor/nucleo/css/nucleo-svg.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/vendor/nucleo/css/nucleo.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/vendor/nucleo/fonts/nucleo-icons.eot" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/vendor/nucleo/fonts/nucleo-icons.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/vendor/nucleo/fonts/nucleo-icons.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/vendor/nucleo/fonts/nucleo-icons.woff" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/renderer/assets/vendor/nucleo/fonts/nucleo-icons.woff2" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.electron-vue/webpack.renderer.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/.electron-vue/webpack.renderer.config.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/components/LandingPage.vue" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/components/base/element/BaseInput.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/base/element/BaseInput.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/components/layout/Account.vue" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/components/layout/Account.vue" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/plugins/globalComponents.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/plugins/globalComponents.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/renderer/router/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/router/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/renderer/assets/.gitkeep" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/assets/.gitkeep" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/renderer/assets/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/assets/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/renderer/plugins/argon-kit.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/renderer/plugins/argon-kit.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,7 +237,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/renderer/components/base/element" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/renderer" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -39,6 +247,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/renderer" />
       <recent name="$PROJECT_DIR$/src/renderer/components/base/element" />
       <recent name="$PROJECT_DIR$/src/renderer/connect" />
     </key>
@@ -53,6 +262,8 @@
       <updated>1608515786435</updated>
       <workItem from="1608515788511" duration="418000" />
       <workItem from="1608591750507" duration="986000" />
+      <workItem from="1608601020567" duration="262000" />
+      <workItem from="1608631754368" duration="1135000" />
     </task>
     <servers />
   </component>
@@ -69,5 +280,6 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
 </project>

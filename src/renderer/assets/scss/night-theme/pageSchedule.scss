@@ -1,0 +1,289 @@
+$lumi-orange: #ee9723;
+$lumi-green: #26ac4a;
+$lumi-green-darker: #135625;
+$blue: #008aee;
+$blue-hover: #3890fc;
+$gray: #707070;
+$lumi-linear-gradient: linear-gradient(to right, $lumi-green, $lumi-green-darker);
+$lumi-radial-gradient: radial-gradient($lumi-green, $lumi-green-darker);
+
+$primary-color: #fff;
+$primary-color-hover: rgb(146, 146, 146);
+$active-color: $lumi-orange;
+$not-active-color: #a9a9a9;
+
+$contrast-color: #000;
+$background: #393933;
+$background-blur: rgba(57, 57, 51, 0.9);
+$background-darker: #201a1a;
+$background-lighter: #414141;
+$background-card: #52524c;
+$background-card-hover: $background-lighter;
+$background-brigness-lighter: rgba(255, 255, 255, 0.25);
+$background-brigness-darker: rgba(0, 0, 0, 0.25);
+
+.night-theme {
+
+
+  #schedule {
+    padding: 0 10px;
+
+    .card-header {
+      font-size: 18px;
+      padding: 20px 0 0 25px !important;
+      margin-bottom: 35px;
+
+      > .float-left {
+        width: 88%;
+
+        i {
+          font-size: 28px;
+          position: relative;
+          top: -6px;
+        }
+
+        .list-floor {
+          width: 90%;
+          float: left;
+
+          .choose-floor {
+            color: #ee9723 !important;
+            padding-bottom: 8px;
+            border-bottom: 1px solid;
+          }
+
+          span {
+            margin-right: 30px;
+          }
+        }
+
+        .list-menu-floor {
+          width: 10%;
+          float: left;
+        }
+      }
+
+      > .float-right {
+        width: 12%;
+
+        > div {
+          float: left;
+          margin-right: 10px;
+        }
+
+        .add-schedule {
+          background-color: rgb(146, 146, 146);
+          position: relative;
+          width: 30px;
+          height: 30px;
+          margin: 4px 0;
+          border-radius: 50%;
+          float: left;
+          bottom: 5px;
+
+          i {
+            position: absolute;
+            top: 0px;
+            left: 6px;
+          }
+
+
+        }
+
+      }
+
+    }
+
+    .card-body {
+      .roomDevices {
+
+        .titleRoom {
+          font-size: 20px;
+          width: 100%;
+          margin-bottom: 15px;
+          /* padding: 10px 10px; */
+          border-bottom: 1px solid gray;
+        }
+
+        .listDevices {
+          width: 100%;
+          height: 190px;
+          overflow: auto;
+
+          .device {
+            width: 12%;
+            float: left;
+            margin-right: 10px;
+          }
+
+        }
+      }
+    }
+
+    .fake-box {
+      .content {
+        background: $background;
+        padding-bottom: 6px;
+      }
+    }
+
+    #ModalDeviceList {
+
+      .modal-content {
+        width: 1000px !important;
+        height: 2000px !important;
+        right: 245px;
+        border-radius: 20px;
+      }
+
+      .modal-body {
+        width: 1000px !important;
+        padding: 0;
+
+        .title {
+          height: 50px;
+          line-height: 50px;
+          background-color: rgba(255, 255, 255, 0.25);
+          border-top-left-radius: 20px;
+          border-top-right-radius: 20px;
+          position: relative;
+
+          h5 {
+            line-height: 40px;
+          }
+
+          i {
+            position: absolute;
+            top: -3px;
+            right: 20px;
+            font-size: 30px;
+
+          }
+        }
+
+        .search {
+          position: relative;
+          background: #393933;
+          border-radius: 38px;
+          height: 38px;
+          width: 82%;
+          margin-top: 10px !important;
+
+          i {
+            position: absolute;
+            font-size: 26px;
+            z-index: 1;
+            left: 8px;
+            top: -1px;
+          }
+
+          .form-group {
+            position: absolute;
+            top: -10px;
+
+            input {
+              height: 38px;
+              margin-left: 41px;
+              margin-top: 10px;
+              width: 120px;
+            }
+          }
+        }
+
+        .filter {
+
+          .mdi-filter {
+            font-size: 35px;
+          }
+
+        }
+
+      }
+
+      .table {
+
+        .checbox {
+          position: relative;
+
+          .mdi {
+            position: absolute;
+            vertical-align: middle;
+            top: 5px;
+            left: 10px;
+            font-size: 28px;
+          }
+
+        }
+
+        th {
+          text-align: center;
+        }
+      }
+
+    }
+
+  }
+
+  #setSchedule {
+    .card-header {
+      text-align: center;
+      background: #929292;
+      line-height: 15px;
+      height: 50px;
+      margin-bottom: 25px;
+
+      i {
+        font-size: 23px;
+        position: relative;
+        top: -2px;
+      }
+    }
+
+    .schedule-device {
+      background: $background;
+      border-radius: 20px;
+      padding-top: 15px;
+      color: $lumi-orange;
+      font-size: 17px;
+    }
+
+    .schedule-option {
+      .button {
+        height: 35px;
+        line-height: 0px;
+        background: rgba(255, 255, 255, 0.25);
+        border-radius: 20px;
+        text-align: center;
+        border: none;
+        width: 90px;
+        margin-left: 10px;
+      }
+
+      .config {
+        padding-left: 10px;
+
+        .state-device {
+          .state {
+            background-color: #393933;
+            width: 100%;
+            height: 40px;
+            line-height: 40px;
+            padding-left: 20px;
+          }
+          .state:nth-child(1){
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            margin-bottom: 3px;
+          }
+
+          .state:nth-child(2) {
+            border-bottom-left-radius: 10px!important;
+            border-bottom-right-radius: 10px!important;
+          }
+
+        }
+      }
+    }
+  }
+
+}

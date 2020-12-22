@@ -1,0 +1,276 @@
+$lumi-orange: #ee9723;
+$lumi-green: #26ac4a;
+$lumi-green-darker: #135625;
+$blue: #008aee;
+$blue-hover: #3890fc;
+$gray: #707070;
+$lumi-linear-gradient: linear-gradient(to right, $lumi-green, $lumi-green-darker);
+$lumi-radial-gradient: radial-gradient($lumi-green, $lumi-green-darker);
+
+$primary-color: #fff;
+$primary-color-hover: rgb(146, 146, 146);
+$active-color: $lumi-orange;
+$not-active-color: #a9a9a9;
+
+$contrast-color: #000;
+$background: #393933;
+$background-blur: rgba(57, 57, 51, 0.9);
+$background-darker: #201a1a;
+$background-lighter: #414141;
+$background-card: #52524c;
+$background-card-hover: $background-lighter;
+$background-brigness-lighter: rgba(255, 255, 255, 0.25);
+$background-brigness-darker: rgba(0, 0, 0, 0.25);
+$border-box-colapse: 1px 0 0 0 $gray, 0 1px 0 0 $gray, 1px 1px 0 0 $gray, 1px 0 0 0 $gray inset, 0 1px 0 0 $gray inset;
+
+.night-theme {
+  #scene {
+    #sceneList {
+      .card-header {
+        .menu-header {
+          & > div {
+            background-color: $gray;
+            color: $primary-color-hover;
+            padding: .5rem;
+            text-align: center;
+            &:first-child{
+              border-top-left-radius: 1.25rem;
+              border-bottom-left-radius: 1.25rem;
+            }
+            &:last-child{
+              border-top-right-radius: 1.25rem;
+              border-bottom-right-radius: 1.25rem;
+            }
+            &.active {
+              background-color: $background-darker;
+              color: $lumi-orange;
+            }
+          }
+        }
+      }
+      .buttonAddScene {
+        background: $gray !important;
+        border: 1px $gray;
+        &:hover {
+          background-color: $background !important;
+          border: 1px solid $lumi-orange !important;
+          color: $lumi-orange;
+        }
+      }
+      h5 {
+        span {
+          color: $lumi-orange;
+        }
+      }
+      .scene {
+        margin-bottom: 0px !important;
+        background-color: $background;
+        .tooltip-hover {
+          color: white;
+          background: gray !important;
+        }
+        &.active {
+          background-color: $background-darker;
+          .name {
+            color: $lumi-orange;
+          }
+        }
+      }
+    }
+    #sceneNormal,
+    #sceneLighting {
+      button {
+        background-color: $gray;
+        border: none;
+        &:hover {
+          background-color: $background-lighter;
+        }
+        &:disabled {
+          background-color: gray;
+        }
+      }
+      .card-header {
+        .right-box {
+          justify-content: flex-end;
+          .search {
+            .form-scene {
+              input {
+                background-color: $gray;
+              }
+            }
+          }
+        }
+      }
+      .card-body {
+        table {
+          background-color: $background-card;
+          thead {
+            tr {
+              background-color: $gray;
+              th {
+                background-color: $gray;
+                border-color: $gray;
+              }
+            }
+          }
+          tbody {
+            tr {
+              &.selected {
+                background-color: $background-brigness-lighter;
+              }
+              td {
+                div {
+                  position: relative;
+                  margin: auto;
+                }
+                .check_device {
+                  border: 1px white solid;
+                  border-radius: 2px;
+                }
+                .icon-config {
+                  font-size: 45px;
+                }
+                border: #737373 0.3px solid;
+              }
+            }
+          }
+        }
+        .scene-info-box {
+          background-color: $background-card;
+          box-shadow: $border-box-colapse;
+          .info {
+            input {
+              background-color: transparent;
+              color: $primary-color;
+            }
+          }
+          .time-box {
+            width: 30%;
+            display: flex;
+            align-items: center;
+            & > div {
+              position: relative;
+            }
+            i.time-picker-icon {
+              position: absolute;
+              font-size: 1.5rem;
+              right: 1rem;
+              top: 0rem;
+            }
+          }
+          .form-group {
+            background-color: $background;
+            border-radius: 1.25rem;
+            outline: none;
+            border: none;
+            color: white;
+            width: 150px;
+          }
+        }
+        .dropdown {
+          .dropdown-menu {
+            background-color: $background-darker;
+            min-width: 7rem;
+            padding: 0;
+            .dropdown-item {
+              color: $primary-color;
+              display: flex;
+              align-content: center;
+              cursor: pointer;
+              &:hover {
+                background-color: $background-brigness-darker;
+              }
+            }
+          }
+          &.device-menu {
+            .dropdown-menu {
+              top: -20px;
+              right: -25px;
+            }
+            & > div {
+              height: 2rem;
+              width: 2rem;
+              border-radius: 50%;
+              background-color: $background;
+              display: flex;
+              position: absolute !important;
+              transform: translate(-50%, -20%);
+              justify-content: center;
+              align-items: center;
+              font-size: 1.5rem;
+            }
+          }
+        }
+      }
+      input {
+        &.delay-time-input {
+          text-align: center;
+          width: 100px;
+          border-radius: 0.5rem;
+          background-color: $background;
+          color: $primary-color;
+          border: none;
+          outline: none;
+          box-shadow: none;
+        }
+      }
+    }
+    .modal-list-device {
+      .filter-device {
+        ul {
+          background: $background-darker;
+          border: 1px solid white;
+          a {
+            color: white;
+            border-bottom: 1px solid white;
+          }
+
+          a:last-child {
+            color: white;
+            border-bottom: none;
+          }
+
+          a:hover {
+            background: $background-brigness-darker;
+          }
+        }
+      }
+      #tableDevice {
+        background-color: $background-card !important;
+        thead {
+          tr {
+            th {
+              background-color: $background-card !important;
+              border: solid 1px gray !important;
+            }
+          }
+        }
+        tbody {
+          tr {
+            &.selected {
+              background-color: $background-brigness-lighter;
+            }
+            td {
+              div {
+                position: relative;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                margin: auto;
+              }
+              .check_device {
+                border: 1px white solid;
+                border-radius: 2px;
+              }
+              .icon-config {
+                font-size: 45px;
+              }
+              border: #737373 0.3px solid;
+            }
+          }
+        }
+      }
+    }
+  }
+}
